@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Goosey's Movie Night</title>
+<link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <img src="/logo.png" alt="logo" class="brand-mark" />
+      <span class="brand-name">Goosey's Movie Night</span>
+    </div>
+    <button id="submit-toggle" class="btn btn-accent">+ Submit</button>
+  </header>
+
+  <main class="container">
+    <div id="submit-panel" class="submit-panel hidden">
+      <input id="url-input" type="text" placeholder="Paste a YouTube link" />
+      <button id="submit-btn" class="btn btn-accent">Submit</button>
+    </div>
+
+    <div id="grid" class="grid"></div>
+  </main>
+
+  <div id="admin-dot" title=""></div>
+
+  <script src="/app.js"></script>
+</body>
+</html>

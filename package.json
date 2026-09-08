@@ -1,0 +1,16 @@
+{
+  "name": "goosey-movie-night",
+  "version": "1.0.0",
+  "description": "Community-ranked movie night video board",
+  "main": "server.js",
+  "engines": {
+    "node": "20.x"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongodb": "^6.9.0"
+  }
+}
